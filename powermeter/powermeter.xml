@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes" ?>
+<actuator type="test" class="ArduinoActuator">
+	<!--Actuator Variables -->
+	
+	<!--Subtypes and Appliances -->
+	<subtype name="home">
+		<appliance name="general">
+			<var name="port" value="/dev/ttyUSB0" />
+			<var name="power" value="0" />
+			<var name="energy" value="0" />
+			<var name="voltage" value="0" />
+			<var name="current" value="0" />
+		</appliance>
+	</subtype>
+</actuator>

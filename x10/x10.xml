@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes" ?>
+<actuator type="luce">
+	<!--Actuator Variables -->
+	<var name="port" value="/dev/ttyUSB0" />
+	
+	<!--Subtypes and Appliances -->
+	<subtype name="interno">
+		<subtype name="cucina">
+			<appliance name="luce1">
+				<var name="housecode" value="A" />
+				<var name="unitcode" value="2" />
+				<var name="state" value="off" />
+			</appliance>
+		</subtype>
+		<subtype name="camera">
+			<appliance name="luce1">
+				<var name="housecode" value="A" />
+				<var name="unitcode" value="1" />
+				<var name="state" value="off" />
+			</appliance>
+		</subtype>
+	</subtype>
+</actuator>

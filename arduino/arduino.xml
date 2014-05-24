@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes" ?>
+<actuator type="test" class="ArduinoActuator">
+	<!--Actuator Variables -->
+	<var name="port" value="/dev/ttyACM0" />
+	
+	<!--Subtypes and Appliances -->
+	<subtype name="test">
+		<appliance name="luce1">
+			<var name="pin" value="13" />
+			<var name="state" value="off" />
+		</appliance>
+	</subtype>
+</actuator>

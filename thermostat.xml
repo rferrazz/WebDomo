@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes" ?>
+<actuator type="thermostat" class="ThermostatActuator">
+	<!--Actuator Variables -->
+	<var name="port" value="/dev/ttyUSB0" />
+	<var name="timeout" value="1" />
+	
+	<!--Subtypes and Appliances -->
+	<subtype name="camera">
+		<appliance name="termostato">
+		</appliance>
+	</subtype>
+</actuator>

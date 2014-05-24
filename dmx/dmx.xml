@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes" ?>
+<actuator type="dmx">
+	<!--Actuator Variables -->
+	<var name="universe" value="1" />
+	
+	<!--Subtypes and Appliances -->
+	<subtype name="home">
+		<appliance name="light">
+		<var name="channels" value="3" />
+		<var name="offset" value="6" />
+		</appliance>
+	</subtype>
+</actuator>
